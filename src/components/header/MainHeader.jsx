@@ -13,7 +13,7 @@ const MainHeader = () => {
 
   const handleOpenMenu = () => {
     setNavClass(
-      "absolute font top-0 left-0 flex h-full w-4/5 flex-col gap-y-5 bg-white p-8 font-bold md:mr-auto md:flex md:flex-row md:gap-4 md:static md:p-0 md:h-auto"
+      "absolute font top-0 left-0 flex h-full w-4/5 flex-col gap-y-5 bg-white p-8 font-bold md:mr-auto md:flex md:flex-row md:gap-4 md:static md:p-0 md:h-auto z-10"
     );
   };
 
